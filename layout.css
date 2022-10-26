@@ -13,7 +13,7 @@ body {
 }
 
 /* Style the top navigation bar */
-ul {
+ul.nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -21,12 +21,12 @@ ul {
 	background-color: #000000;
 }
 
-li {
+li.nav {
 	float: left;
 }
 
 /* Style the navigation links */
-li a, .dropbn {
+.nav a, .dropbn {
 	display: inline-block;
 	color: #ffffff;
 	text-align: center;
@@ -35,7 +35,7 @@ li a, .dropbn {
 }
 
 /* Change color on hover */
-li a:hover, .dropdown:hover .dropbtn {
+li.nav a:hover, .dropdown:hover .dropbtn {
 	background-color: #0c2c63;
 }
 
@@ -95,4 +95,9 @@ li.dropdown {
 .footer {
 	text-align: center;
 	padding: 10px;
+}
+
+/* Style rehearsal lists */
+ol.rehearsal {
+	list-style-type: upper-alpha;
 }
