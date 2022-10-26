@@ -35,16 +35,16 @@ class TOCMenu extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
 			<h3>Part One</h3>
-			<a href='#chorus04'>Chorus 04</a><br>
-			<a href='#chorus07'>Chorus 07</a><br>
-			<a href='#chorus09'>Chorus 09</a><br>
-			<a href='#chorus12'>Chorus 12</a><br>
-			<a href='#chorus17'>Chorus 17</a><br>
-			<a href='#chorus21'>Chorus 21</a><br>
+			<a href='#chorus04'>And the glory of the Lord</a><br>
+			<a href='#chorus07'>And He shall purify</a><br>
+			<a href='#chorus09'>O thou that tellest good tidings to Zion</a><br>
+			<a href='#chorus12'>For unto us a Child is born</a><br>
+			<a href='#chorus17'>Glory to God</a><br>
+			<a href='#chorus21'>His yoke is easy, and His burthen is light</a><br>
 			<h3>Part Two</h3>
-			<a href='#chorus44'>Chorus 44</a><br>
+			<a href='#chorus44'>Hallelujah!</a><br>
 			<h3>Part Three</h3>
-			<a href='#chorus53'>Chorus 53</a><br>
+			<a href='#chorus53'>Worthy is the Lamb</a><br>
 		`;
 	}
 }
