@@ -101,3 +101,36 @@ li.dropdown {
 ol.rehearsal {
 	list-style-type: upper-alpha;
 }
+
+.text {
+	font-style: italic;
+}
+
+.hovertext {
+	position: relative;
+	border-bottom: 1px dotted #000000;
+	color: #daa520
+}
+
+.hovertext:before {
+	content: attr(data-hover);
+	visibility: hidden;
+	opacity: 0;
+	width: max-content;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 5px;
+	transition: opacity 1s ease-in-out;
+
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 110%;
+}
+
+.hovertext:hover:before {
+	opacity: 1;
+	visibility: visible;
+}

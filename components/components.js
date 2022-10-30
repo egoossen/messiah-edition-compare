@@ -9,6 +9,7 @@ class NavMenu extends HTMLElement {
 				<nav>
 					<ul class='nav'>
 						<li class='nav'><a href='index.html'>Home</a></li>
+						<li class='nav'><a href='toc.html'>Index</a></li>
 						<li class='nav'><a href='measures.html'>Measure Numbers</a></li>
 						<li class='dropdown'>
 							<a href='javascript:void(0)' class='dropbtn'>Part Comparisions</a>
